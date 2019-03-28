@@ -1,0 +1,4 @@
+#!/bin/sh
+mkdir build && make jar
+java -jar iloc.jar $@
+make clean
