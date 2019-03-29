@@ -109,7 +109,7 @@ public class Scanner {
     }
 
     private char peek() {
-        if (isAtEnd()) return '\0';
+        if (isAtEnd()) return 0;
         return source.charAt(current);
     }
 
